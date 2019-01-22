@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html"/>
+    <title>Getting Started: Serving Web Content</title>
+</head>
+<body th:style="'background-color: ' + ${backgroundColor} + ';'">
+    <p th:text="'Hello, ' + ${name} + '!'"/>
+    <p th:text="'My working directory is: ' + ${userDir}"/>
+    <p th:text="'The password is: ' + ${password}"/>
+</body>
+</html>
